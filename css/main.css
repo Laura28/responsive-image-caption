@@ -73,3 +73,30 @@ h2 {
   }
 
 }
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  figcaption {
+    right: 10px;
+    top: 280px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+  figcaption {
+    top: 480px;
+  }
+
+}
